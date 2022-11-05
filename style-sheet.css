@@ -1,0 +1,127 @@
+.sectionOne {
+    display: flex;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    justify-content: space-AROUND;
+    
+    
+}
+
+
+.headerLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.sectionTwo {
+
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: row;
+    justify-items: center;
+    color:#E5E7EB;
+    min-height: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+}
+
+.S2Image {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(19, 19, 19);
+} 
+
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+    
+    
+    
+}
+
+.sec3txt {
+    flex-direction: row;
+    display: flex;
+    align-self: center;
+    gap: 15px;
+    
+
+}
+
+.sectionFour {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.quoteText {
+
+    
+    width: 480px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+
+
+.sectionFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding:20px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    gap: 10px;
+    height:auto;
+}
+
+.sectionSix {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
+
+.lPImages {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(80, 80, 80);
+}
+
+.itemOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.siteLogo {
+    width: 120px;
+    height: 80px;
+}
+
+.button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    height: 2em;
+    border-color: #E5E7EB;
+    border-radius: 50px;
+}
+  
