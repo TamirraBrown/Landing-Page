@@ -2,47 +2,52 @@
     display: flex;
     background-color: #1F2937;
     color:#E5E7EB;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap:40%;
+    
 }
 
 .siteLogo {
     width: 130px;
     height: 80px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .headerLinks {
     display: flex;
     gap: 10px;
-    margin-right: 10%;
+    margin-right: 5%;
+    flex-wrap: nowrap;
 }
 
 .sectionTwo {
 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     background-color: #1F2937;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color:#E5E7EB;
     min-height: 400px ;
 }
 
 .infoTextS2 {
-    margin-left: 10%;
+    
     flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
 
 }
 
 .S2Image {
     display: flex;
-    max-height: 200px ;
-    max-width: 400px;
+    flex-direction: column;
+    align-self: center;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgb(19, 19, 19);
-    margin-right: 10%;
+    
     
 } 
 
